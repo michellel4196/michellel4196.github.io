@@ -17,12 +17,14 @@
   }
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
-  .bg-1 { 
-      background-color: #936; /* Green */
-      color: #ffffff;
-  }
+  
+     #grad1 {
+    height: 500px;
+    background-color: red; 
+    background-image: linear-gradient(to bottom right, blue, purple);
+     }
   .bg-2 { 
-      background-color: #2f2f2f; /* Dark Blue */
+      background-color: #299; /* blue-green */
       color: #ffffff;
   }
   .bg-3 { 
@@ -30,7 +32,7 @@
       color: #555555;
   }
   .bg-4 { 
-      background-color: #000; /* Black Gray */
+      background-color: #000; /* Black */
       color: #fff;
   }
   .container-fluid {
@@ -75,9 +77,9 @@
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
+<div id="grad1" class="container-fluid bg-1 text-center">
   <h3 class="margin">All About Me!</h3>
-  <img src="michelle.png" class="img-responsive img-square margin" style="display:inline" alt="Michelle" width="350" height="350">
+  <img src="michelle.png" class="img-responsive img-square margin" style="display:inline" alt="Michelle" width="300" height="300">
   <h3>I am Michelle Lin</h3>
 </div>
 
@@ -92,7 +94,7 @@
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Where To Find Me?</h3><br>
+  <h3 class="margin">Hobbies?</h3><br>
   <div class="row">
     <div class="col-sm-4">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -111,8 +113,8 @@
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+  <p>My GitHub profolio<a href="https://github.com/"> www.github.com</a></p> 
 </footer>
 
-</body>
+</body> 
 </html>
